@@ -44,6 +44,19 @@ public class PlayerInfo {
         return 0;
     }
 
+    public SpaceInfo[] getSpaces() {
+        return this.spaces;
+    }
+    public PlayerType getPlayerType() {
+        return this.playerType;
+    }
+
+    public SelectInfo getSelectInfo() {
+        return this.selectInfo;
+    }
+    public void setSelectInfo(SelectInfo selectInfo) {
+        this.selectInfo = selectInfo;
+    }
 
 
 
